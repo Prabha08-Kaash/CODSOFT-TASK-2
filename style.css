@@ -1,0 +1,518 @@
+body {
+    height: 7000px;
+    background-color: white;
+    overflow-x: hidden;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+
+.head {
+    border: 3px;
+    height: 750px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.head img {
+    height: 400px;
+    display: inline-block;
+    position: absolute;
+    left: 260px;
+    top: 150px;
+}
+
+.portfolio {
+    border: 2px;
+    background-color: black;
+    color: yellow;
+    display: inline-block;
+    width: 6%;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    padding: 30px;
+    height: 750px;
+    font-size: 35px;
+    letter-spacing: 30px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.name {
+    text-decoration: underline;
+    display: inline-block;
+    top: 48px;
+    position: absolute;
+    width: 20%;
+    margin: 20px 190px;
+    font-size: 42px;
+    color: rgb(238, 12, 12);
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    ;
+
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 25px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #9f16c9;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(10, 10, 10);
+}
+
+.description {
+    display: inline-block;
+    position: absolute;
+    left: 750px;
+    top: 250px;
+    font-size: 50px;
+    line-height: 45px;
+}
+
+.hello {
+    font-size: 70px;
+}
+
+.descrip {
+
+    display: inline-block;
+    position: absolute;
+    left: 750px;
+    top: 380px;
+    font-size: 20px;
+    width: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.headerFooter {
+
+    width: 20%;
+    padding: 70px 30px 20px;
+    display: inline-block;
+    margin-left: 160px;
+    position: absolute;
+    top: 530px;
+
+
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.socialIcons a {
+    padding: 15px;
+}
+
+.socialIcons a i {
+    font-size: 3em;
+    color: #111;
+    opacity: 0.9;
+    
+}
+
+.socialIcons a:hover i {
+    transition: 0.2s;
+}
+
+.main {
+    height: 700px;
+    background-color: black;
+    box-sizing: border-box;
+
+}
+
+.main img {
+    width: auto;
+    height: 630px;
+    margin-left: 50px;
+    margin-top: 90px;
+    border: 10px solid rgb(251, 252, 248);
+
+}
+
+.main div {
+    display: flex;
+    position: absolute;
+
+}
+
+
+.aboutMe {
+    font-size: 80px;
+    top: 840px;
+    right: 200px;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration-color: #ccc;
+    text-decoration: underline;
+    line-height: 5px;
+    text-underline-offset: 30px;
+    text-decoration-thickness: 4px;
+
+}
+
+
+.content {
+    font-size: 20px;
+    background-color: chocolate;
+    top: 980px;
+    right: 70px;
+    width: 30%;
+    padding: 50px;
+    border: 3px solid#f9fafa;
+    color: white;
+}
+
+.skills {
+    background-color: rgb(208, 211, 9);
+    width: 100%;
+    height: 750px;
+    box-sizing: border-box;
+    margin-top: -11px;
+
+}
+
+.skillHead {
+    color: green;
+    display: inline-block;
+    left: 700px;
+    position: absolute;
+    font-size: 80px;
+    top: 80px;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(7, 7, 7);
+    text-decoration-color: #ccc;
+    text-decoration: underline;
+    line-height: 4px;
+    text-underline-offset: 20px;
+    text-decoration-thickness: 4px;
+}
+
+.skills div {
+    height: 200px;
+    width: 200px;
+    color: rgb(253, 253, 247);
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.skill1 {
+    background-color: rgb(7, 235, 159);
+    left: 360px;
+    top: 200px;
+
+}
+
+.skill2 {
+    background-color: rgb(24, 13, 65);
+    left: 618px;
+    top: 200px;
+}
+
+.skill3 {
+    background-color: rgb(111, 83, 216);
+    right: 618px;
+    top: 200px;
+}
+
+.skill4 {
+    background-color: rgb(214, 26, 63);
+    right: 360px;
+    top: 200px;
+}
+
+.skill5 {
+    background-color: rgb(20, 50, 220);
+    left: 440px;
+    top: 420px;
+}
+
+.skill6 {
+    background-color: rgb(67, 220, 20);
+    left: 640px;
+    top: 420px;
+}
+
+.skill7 {
+    background-color: rgb(20, 113, 220);
+    right: 640px;
+    top: 420px;
+}
+
+.skill8 {
+    background-color: rgb(220, 20, 220);
+    right: 440px;
+    top: 420px;
+}
+
+.project {
+    height: 750px;
+    width: 100%;
+    background-color: rgb(14, 13, 13);
+    margin-top: 745px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.openSourceProject {
+    border: 2px;
+    font-size: 70px;
+    display: flex;
+    position: absolute;
+    padding: 20px;
+    margin-left: 520px;
+    top: 0px;
+color: white;
+}
+
+.websiteBuildingProject {
+    top: 135px;
+    margin-left: 640px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-decoration-color: #ebe7e7;
+    text-decoration: underline;
+    line-height: 4px;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 4px;
+    color: #ca1e1e;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.descriptionAboutProject {
+    top: 180px;
+    margin-left: 400px;
+    font-size: 20px;
+    width: 50%;
+    color: yellow;
+}
+
+.link {
+    top: 275px;
+    margin-left: 420px;
+    font-size: 20px;
+    color: #ccc;
+}
+
+
+.project img {
+    height: 270px;
+    border: 5px solid yellow;
+    margin-top: 370px;
+    padding: 5px;
+    margin-left: 150px;
+    
+}
+
+.container {
+    height: 700px;
+    background-color: rgb(158, 204, 33);
+    top: 3006px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+.contactme {
+    display: inline-block;
+    left: 650px;
+    top: 40px;
+    font-size: 70px;
+    letter-spacing: 2px;
+    text-decoration-color: #ccc;
+    text-decoration: underline;
+    line-height: 4px;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 4px;
+}
+
+input[type=text],
+textarea {
+
+    width: 50%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 35px;
+    margin-bottom: 16px;
+
+
+}
+
+input[type=CONTACTUS] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 12px 1px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    top: 490px;
+    left: 80px;
+
+}
+
+input[type=CONTACTUS]:hover {
+    background-color: #000301;
+}
+
+.container img {
+    width: 40%;
+    height: 640px;
+    margin-top: -10px;
+    border: none;
+}
+
+.findMe {
+    margin-top: 2205px;
+    
+    padding: 10px;
+    height: 750px;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.reachMeOut {
+    color: #ca1e1e;
+    margin-top: 75px;
+    font-size: 70px;
+    margin-left: 550px;
+}
+
+.subtitile {
+    color: #0e0d0d;
+    margin-top: 160px;
+    font-size: 18px;
+    margin-left: 480px;
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    
+}
+
+.aboutReachMeOut {
+    color: #ca1ead;
+    margin-top: 220px;
+    padding: 10px 20px;
+    margin-left: 510px;
+    font-size: 25px;
+}
+
+.location {
+    color: #0a0a0a;
+    margin-top: 260px;
+    margin-left: 665px;
+    font-size: 21px;
+}
+
+.openForOpportunity {
+    color: #991392;
+    margin-top: 330px;
+    margin-left: 626px;
+    font-size: 25px;
+}
+.openForOpportunitybottom{
+    color: #030303;
+    margin-top: 360px;
+margin-left: 545px;
+font-size: 16px;
+letter-spacing: 2px;
+}
+
+.findMe img {
+    align-items: center;
+    height: 230px;
+    width: auto;
+    margin-left:370px;
+    margin-top: 480px;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+    margin-top: 3000px;
+}
+
+footer {
+    background-color: #111;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: #111;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover {
+    background-color: #111;
+    transition: 0.5s;
+
+}
+
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+
+.footerBottom {
+    background-color: #75737517;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.footerBottom p {
+    color: white;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
